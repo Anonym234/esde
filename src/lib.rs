@@ -1,4 +1,4 @@
-//! # simple **de**serialize and **ser**ialize library
+//! # ESDE (SE-rialize and DE-serialize library)
 //!
 //! The idea is to easily store non-recursive data structures to files and read them back.
 //! "Easy" in that context means that the format is understandable by humans and can therefore, in theory, produced from other languages/frameworks as well.
@@ -95,13 +95,13 @@
 //! * [ ] attribute for ignoring fields when (de)serializing, they must implement [`Default`]
 //! * [ ] handle generic types
 
+mod es;
+pub use es::*;
+
 mod de;
 pub use de::*;
-
-mod ser;
-pub use ser::*;
 
 mod generic_impls;
 mod ingeneric_impls;
 
-pub use deser_derive::*;
+// pub use deser_derive::*;
