@@ -104,4 +104,4 @@ pub use de::*;
 mod generic_impls;
 mod ingeneric_impls;
 
-// pub use deser_derive::*;
+pub use esde_derive::*;

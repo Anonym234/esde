@@ -1,9 +1,12 @@
 [package]
 name = "esde"
+license = "MIT"
+description = "simple serialize and deserialize library"
+repository = "https://github.com/Anonym234/esde"
 version = "1.0.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-# TODO
+esde_derive = "1.0.0"
